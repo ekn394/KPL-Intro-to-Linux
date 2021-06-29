@@ -2,18 +2,32 @@
 
 <h2> Virtual Machines </h2>
 
-<br>Virtual machines allow us to use a portion of our computer's resources to run a totally separate 'simulated computer' or <em>virtual machine</em>.
-This virtual machine can even be a totally different operating system!  For example, I could be using a Windows computer and then run a simulated Linux virtual machine and be able use both at the same time!  A virtual machine is a safe (and easy to remove) option for trying out a new operating system.   
+<br>A virtual machine is a safe (and easy to remove) option for trying out a new operating system. Virtual machines allow us to use a portion of our computer's resources to run a totally separate 'simulated computer' or <em>virtual machine</em>.
+This virtual machine can even use a totally different operating system!  For example, I could be using a Windows computer, and then run a simulated Linux virtual machine and be able use both at the same time!    
 
-Go to https://virtualbox.org/ and download the newest version of their VirtualBox software (as of this writing is version 6.1).  
-<br>There should be a HUGE blue 'download' button in the center of your browser window.  
-<br>The downloads button will send you to the downloads page, where you have to select your <em>CURRENT</em> operating system.
- 
+Go to https://virtualbox.org/ and download the newest version of their VirtualBox software (as of this writing is version 6.1)
+
+
+[![image](https://user-images.githubusercontent.com/12129459/123864712-12468580-d8f9-11eb-990f-c05538c4fcfa.png)](https://www.virtualbox.org/wiki/Downloads)
+
+There should be a large blue 'Download' button in the center of your browser window.  
+
+![image](https://user-images.githubusercontent.com/12129459/123864239-86ccf480-d8f8-11eb-95b1-c4f758ec2378.png)
+
+When you click on that 'Download' button, it will take you to their <a href="https://www.virtualbox.org/wiki/Downloads"> downloads page </a> where you have to select your <em>CURRENT</em> operating system. In my case, I am using a Windows computer, so I will click on the "Windows hosts" option.  This is because Windows will be the _host_ for our new virtual machine. 
+
+Click on the appropriate link that matches your current operating system.  
+
+That should start a download of the Virtualbox installer.
+
  <hr>
  
 <h2> Installing Virtualbox</h2>
 
-Open up the installer. 
+Find that VirtualBox installer that you just downloaded, and double click on it. In my case, the file was in my _Downloads_ folder under the name **VirtualBox-6.1.22-144080-Win.exe** but it may have a slightly different name for you depending on what version you downloaded. 
+
+![image](https://user-images.githubusercontent.com/12129459/123866890-a31e6080-d8fb-11eb-9346-0700ff54b077.png)
+
 
 Click **Next** to begin.
 
@@ -30,7 +44,7 @@ Click **Finish**.
 <hr>
 
 <h2> Downloading a Linux Desktop image (.iso)</h2>
-For this course we will want Ubuntu 20.04.2.0 LTS which you can find at the top of this page. 
+For this course, we will want Ubuntu 20.04.2.0 LTS which you can find at the top of the top of the following <a href="https://ubuntu.com/download/desktop">page</a>. 
 <br>
 https://ubuntu.com/download/desktop
   
