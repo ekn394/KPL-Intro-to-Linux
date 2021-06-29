@@ -95,10 +95,13 @@ Click Next.
 
 Now, we find ourselves back on the main Oracle VM VirtualBox Manager.  
 
-We should now have 1 new virtual machine listed on the left hand side.  Note it never asked us for the Ubuntu iso file, it will do that the first time we start that virtual machine.  
+We should now have 1 new virtual machine listed on the left hand side. Note it never asked us for the Ubuntu iso file, it will do that the first time we start that virtual machine.  
 
 ![image](https://user-images.githubusercontent.com/12129459/123843340-d0f5ac00-d8df-11eb-8150-a93ab92d7b6d.png)
 
-With your new UbuntuVM (or whatever you named yours) selected, click the Start button. 
+With your new virtual device selected, click the Start button.
+
+<hr>
+
 
 
