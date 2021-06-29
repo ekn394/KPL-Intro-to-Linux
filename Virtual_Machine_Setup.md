@@ -80,7 +80,7 @@ Click **Next**.
 ![image](https://user-images.githubusercontent.com/12129459/123837909-60e42780-d8d9-11eb-83f8-0a6069705d85.png)
 
 On the next page, it will ask you how much Memory (RAM) you want to allocate to the virtual machine. 
-_**As a rule of thumb, choose one quarter of the available ram.**_  In my case, I have 8000 MB (or 8 GB) of RAM, so I will chose 1/4 of that, and select around 2000 MB (2 GB).  The absolute numbers for you may be different, but moving the slider to be 1/4 the way up is a safe starting point.  When you do not have the virtual machine running, your default operating system will have access to 100% of the RAM again. You can choose less than that, but your vitural 
+_**As a rule of thumb, choose one quarter of the available ram.**_  In my case, I have 8000 MB (or 8 GB) of RAM, so I will chose 1/4 of that, and select around 2000 MB (2 GB).  The absolute numbers for you may be different, but moving the slider to be 1/4 the way up is a safe starting point.  When you do not have the virtual machine running, your default operating system will have access to 100% of the RAM again. You can choose to use less than 25% for your virtual machine, but don't select any more than that, or you risk other problems (like not leaving enough for your main operating system). 
 
 Click **Next**. 
 
