@@ -1,7 +1,7 @@
 # KPL-Intro-to-Linux
 Class instructions and starter files for the 4-part series on Intro to Linux
 
-<h3> Virtual Machines </h3>
+<h2> Virtual Machines </h2>
 
 <br>Virtual machines allow us to use a portion of our computer's resources to run a totally separate 'simulated computer' or <em>virtual machine</em>.
 This virtual machine can even be a totally different operating system!  For example, I could be using a Windows computer and then run a simulated Linux virtual machine and be able use both at the same time!  A virtual machine is a safe (and easy to remove) option for trying out a new operating system.   
@@ -10,23 +10,27 @@ Go to https://virtualbox.org/ and download the newest version of their VirtualBo
 <br>There should be a HUGE blue 'download' button in the center of your browser window.  
 <br>The downloads button will send you to the downloads page, where you have to select your <em>CURRENT</em> operating system.
  
-<h3> Installing Virtualbox</h3>
+ <hr>
+ 
+<h2> Installing Virtualbox</h2>
 
 Open up the installer. 
 
-Click Next to begin.
+Click **Next** to begin.
 
-Click Next to use the default install location.
+Click **Next** to use the default install location.
 
-Up to you but I uncheck the box for Quick Launch Bar, then click Next. 
+It is up to you, but I unchecked the box for Quick Launch Bar, then clicked **Next**. 
 
-Click Yes. 
+Click **Yes**. 
 
-Click Next.
+Click **Next**.
 
-Click Finish.
+Click **Finish**.
 
-<h3> Downloading a Linux Desktop image (.iso)</h3>
+<hr>
+
+<h2> Downloading a Linux Desktop image (.iso)</h2>
 For this course we will want Ubuntu 20.04.2.0 LTS which you can find at the top of this page. 
 <br>
 https://ubuntu.com/download/desktop
@@ -36,7 +40,9 @@ and another download option, version 21.04. We want the earlier one, 20.04.2.0 L
 
 This will be a LONG download (~3 Gigs of space)
 
-<h3> Setting up your new Linux Virtual Machine</h3>
+<hr>
+
+<h2> Setting up your new Linux Virtual Machine</h2>
 
 In your VirtualBox software, click the **New** button.  
 
@@ -54,7 +60,7 @@ In the _Version_ dropdown, select **Ubuntu (64-bit)**.
 
 ![image](https://user-images.githubusercontent.com/12129459/123842096-63954b80-d8de-11eb-886f-7da9e9403179.png)
 
-Click Next. 
+Click **Next**. 
 
 <hr>
 
@@ -63,7 +69,7 @@ Click Next.
 On the next page, it will ask you how much Memory (RAM) you want to allocate to the virtual machine. 
 _**As a rule of thumb, choose one quarter of the available ram.**_  In my case, I have 8000 MB (or 8 GB) of RAM, so I will chose 1/4 of that, and select around 2000 MB (2 GB).  The absolute numbers for you may be different, but moving the slider to be 1/4 the way up is a safe starting point.  When you do not have the virtual machine running, your default operating system will have access to 100% of the RAM again. You can choose less than that, but your vitural 
 
-Click Next. 
+Click **Next**. 
 
 <hr>
 
@@ -71,7 +77,7 @@ Click Next.
 
 On the Hard disk page, select **Create a Virtual hard disk now**
 
-Click Create. 
+Click **Create**. 
 
 <hr>
 
@@ -79,7 +85,7 @@ Click Create.
 
 On the Hard disk file type page, pick **VDI (VirtualBox Disk)** . 
 
-Click Next. 
+Click **Next**. 
 
 <hr>
 
@@ -87,7 +93,7 @@ Click Next.
 
 On the next screen, about storage, select **Dynamically allocated**. 
 
-Click Next. 
+Click **Next**. 
 
 <hr>
 
@@ -95,7 +101,7 @@ Click Next.
 
 Lastly, I used the default 10 GB of hard drive space.  My computer has 50 GB free, so that shouldn't be a problem, but you may need to clear up some space.  Note, since I chose "dynamically allocate" in the previous step, this virtual machine can take UP TO 10 GB.  It isn't already taking up that much space.  
 
-Click Next. 
+Click **Next**. 
 
 <hr>
 
@@ -105,7 +111,7 @@ We should now have 1 new virtual machine listed on the left hand side. Note it n
 
 ![image](https://user-images.githubusercontent.com/12129459/123843340-d0f5ac00-d8df-11eb-8150-a93ab92d7b6d.png)
 
-With your new virtual device selected, click the Start button.
+With your new virtual device selected, click the **Start** button.
 
 <hr>
 
@@ -158,9 +164,10 @@ This will take a minute
 <hr>
 
 ![image](https://user-images.githubusercontent.com/12129459/123847885-12d52100-d8e5-11eb-8f3d-5d5cc43194b0.png)
+
 A new (optional) setup window will appear.  I selected **Continue**
 
-Next, I hit Continue to select the default English(US) keyboard layout. 
+Then, I hit **Continue** again to select the default English(US) keyboard layout. 
 
 ![image](https://user-images.githubusercontent.com/12129459/123848146-5d569d80-d8e5-11eb-9d70-c390ca12b87d.png)
 
@@ -214,7 +221,7 @@ Sit back and wait for a few minutes while Ubuntu does its first time setup.  It 
 
 When the installation is complete, it will say that you need to restart the computer.  
 
-**Press the provided Restart Now button.**  This will only restart the virtual machine, not your regular computer.  
+Press the **Restart Now** button.  This will only restart the virtual machine, not your regular computer.  
 
 <br>
 
@@ -235,7 +242,7 @@ Click on your chosen username.  Type in that password that I mentioned you would
 
 The first page it shows, similar to Windows computers, is a bunch of nonsense that you don't need.  
 
-Click **Skip**, then **Next**, then I chose "No, don't send system info", **Next**, I left the Location services off (which was the default). And then finally, **Done**.  
+Click **Skip**, then **Next**, then I chose "No, don't send system info", **Next**, I left the location services off (which was the default). And then finally, **Done**.  
 
 <hr>
 
@@ -251,5 +258,11 @@ You now have a virtual computer running Ubuntu Linux 20.04.
 
 When you eventually go to either to shutdown this virtual machine, or close the VirtualBox program that it lives within, you will be given 3 choices.  My suggestion is to go with the default **Send the shutdown signal**.
 
-If you want to start up your Linux virtual machine again, you can open up your VirtualBox software, ![image](https://user-images.githubusercontent.com/12129459/123859855-2be4ce80-d8f3-11eb-9314-bebe8625eacc.png)
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/123859855-2be4ce80-d8f3-11eb-9314-bebe8625eacc.png)
+
+https://user-images.githubusercontent.com/12129459/123843340-d0f5ac00-d8df-11eb-8150-a93ab92d7b6d.png
+ 
+When you want to start up your Linux virtual machine again, you can open up your VirtualBox software,
 select that same Ubuntu virtual machine from the list, and press the green **Start** button . All of those pesky setup steps only needed to be done once.    
