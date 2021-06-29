@@ -12,13 +12,19 @@ Go to https://virtualbox.org/ and download the newest version.
  
 <h3> Installing Virtualbox</h3>
 
-<br>Open up the installer. 
-<br> Click Next to begin.
-<br> Click Next to use the default install location.
-<br> Up to you but I uncheck the box for Quick Launch Bar, then click Next. 
-<br> Click Yes. 
-<br> Click Next.
-<br> Click Finish
+Open up the installer. 
+
+Click Next to begin.
+
+Click Next to use the default install location.
+
+Up to you but I uncheck the box for Quick Launch Bar, then click Next. 
+
+Click Yes. 
+
+Click Next.
+
+Click Finish.
 
 <h3> Downloading a Linux Desktop image (.iso)</h3>
 For this course we will want Ubuntu 20.04.2.0 LTS which you can find at the top of this page. 
@@ -102,6 +108,52 @@ We should now have 1 new virtual machine listed on the left hand side. Note it n
 With your new virtual device selected, click the Start button.
 
 <hr>
+
+![image](https://user-images.githubusercontent.com/12129459/123844716-5af24480-d8e1-11eb-87a5-122ba129f82d.png)
+
+On this first start-up for this virtual machine, it will ask you for the location of the operating system iso file.  Here we want to click the folder icon 
+
+Click the folder icon   ![image](https://user-images.githubusercontent.com/12129459/123845032-b91f2780-d8e1-11eb-9d63-bdcdffedb326.png)
+
+If you don't have any 'disk images' loaded here (I don't either), then you will need to click the **Add button** and locate that Ubuntu iso file. 
+
+![image](https://user-images.githubusercontent.com/12129459/123845128-d0f6ab80-d8e1-11eb-8bb9-c5f7d3f6b03d.png)
+
+Then click **Add**
+
+![image](https://user-images.githubusercontent.com/12129459/123845389-1e731880-d8e2-11eb-95a9-3489e7983eb7.png)
+
+Locate the ubuntu iso file that we downloaded earlier, and double click on it. 
+
+![image](https://user-images.githubusercontent.com/12129459/123845524-482c3f80-d8e2-11eb-96a4-ade49588f786.png)
+
+Now with your Ubuntu file selected, you can click the **Choose** button. 
+
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/123845608-64c87780-d8e2-11eb-9db1-17c9681a2715.png)
+
+Finally, click **Start**
+
+<hr>
+
+<h3> First Boot Up into Ubuntu Linux</h3>
+
+**Warning: For the next few steps you will need to use your keyboard, not a mouse**
+
+It might ask you for your language of choice.  I choose the default, English, and hit the Enter key on my keyboard.  
+
+![image](https://user-images.githubusercontent.com/12129459/123846573-8a09b580-d8e3-11eb-985b-7aabf6b7ed0e.png)
+
+Next, pick the third option which is to **Install Ubuntu**
+
+Use your arrow keys to highlight "Install Ubuntu" and press the Enter key. 
+
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/123847341-7f9beb80-d8e4-11eb-9237-0ebd3332aea9.png)
+
+This will take a minute
 
 
 
