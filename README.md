@@ -1,12 +1,12 @@
 # KPL-Intro-to-Linux
 Class instructions and starter files for the 4-part series on Intro to Linux
 
-<h3> Virtual Machine </h3>
+<h3> Virtual Machines </h3>
 
 <br>Virtual machines allow us to use a portion of our computer's resources to run a totally separate 'simulated computer' or <em>virtual machine</em>.
-This virtual machine can be a totally different operating system too.  For example, I could be using a Windows computer and then run a simulated Linux virtual machine and be able use both at the same time.  A virtual machine is a safe (easy to remove) option for trying out a new operating system.   
+This virtual machine can even be a totally different operating system!  For example, I could be using a Windows computer and then run a simulated Linux virtual machine and be able use both at the same time!  A virtual machine is a safe (and easy to remove) option for trying out a new operating system.   
 
-Go to https://virtualbox.org/ and download the newest version.  
+Go to https://virtualbox.org/ and download the newest version of their VirtualBox software (as of this writing is version 6.1).  
 <br>There should be a HUGE blue 'download' button in the center of your browser window.  
 <br>The downloads button will send you to the downloads page, where you have to select your <em>CURRENT</em> operating system.
  
@@ -198,7 +198,7 @@ Click Continue.
 
 ![image](https://user-images.githubusercontent.com/12129459/123854463-bd9d0d80-d8ec-11eb-9e84-71b885cce7e9.png)
 
-It asks for some details, I chose the name 'evan' but it doesn't need to be your real name, and I chose a memorable password.  **Don't forget this password, you will need it!**
+It asks for some details, I eventually went with the name 'evan' instead of 'me' shown in the screenshot above, but it certainly doesn't need to be your real name.  You also have to chose a (memorable) password.  **Don't forget this password, you will need it!**
 
 Click Continue. 
 
@@ -206,8 +206,50 @@ Click Continue.
 
 ![image](https://user-images.githubusercontent.com/12129459/123855295-bd514200-d8ed-11eb-8674-72db74739274.png)
 
-Sit back and wait for a minute or two while it sets up for the first time, and it doesn't hurt to read the promotional material scrolling by about what comes with your brand new Ubuntu installation. 
+Sit back and wait for a few minutes while Ubuntu does its first time setup.  It doesn't hurt to read the promotional material scrolling by about what comes with your brand new Ubuntu installation. 
+
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/123856075-a7904c80-d8ee-11eb-8459-1f67dca93307.png)
+
+When the installation is complete, it will say that you need to restart the computer.  
+
+**Press the provided Restart Now button.**  This will only restart the virtual machine, not your regular computer.  
+
+<br>
+
+It will get stuck at a step that says "Remove Installation medium and press Enter".  The virtual machine *THINKS* that we have some kind of Ubuntu installation USB stick plugged in (we don't but it *WOULD* think that).  
+
+Just **press Enter**.  This is all just first time stuff, that shouldn't come up again.
+
+<br>
+
+![image](https://user-images.githubusercontent.com/12129459/123856809-867c2b80-d8ef-11eb-8ddd-ad94f065383a.png)
+
+Click on your chosen username.  Type in that password that I mentioned you would need again, and press Enter. 
+
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/123857242-0dc99f00-d8f0-11eb-832b-baa7261585c8.png)
 
 
+The first page it shows, similar to Windows computers, is a bunch of nonsense that you don't need.  
 
+Click **Skip**, then **Next**, then I chose "No, don't send system info", **Next**, I left the Location services off (which was the default). And then finally, **Done**.  
 
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/123858120-24242a80-d8f1-11eb-80e2-5cef90d73fef.png)
+
+**Congratuations, setup is complete!**
+
+You now have a virtual computer running Ubuntu Linux 20.04.  
+
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/123859369-8d586d80-d8f2-11eb-93fd-dc009d9cbcb3.png)
+
+When you eventually go to either to shutdown this virtual machine, or close the VirtualBox program that it lives within, you will be given 3 choices.  My suggestion is to go with the default **Send the shutdown signal**.
+
+If you want to start up your Linux virtual machine again, you can open up your VirtualBox software, ![image](https://user-images.githubusercontent.com/12129459/123859855-2be4ce80-d8f3-11eb-9314-bebe8625eacc.png)
+select that same Ubuntu virtual machine from the list, and press the green **Start** button . All of those pesky setup steps only needed to be done once.    
