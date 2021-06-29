@@ -262,7 +262,8 @@ When you eventually go to either to shutdown this virtual machine, or close the 
 
 ![image](https://user-images.githubusercontent.com/12129459/123859855-2be4ce80-d8f3-11eb-9314-bebe8625eacc.png)
 
-https://user-images.githubusercontent.com/12129459/123843340-d0f5ac00-d8df-11eb-8150-a93ab92d7b6d.png
- 
-When you want to start up your Linux virtual machine again, you can open up your VirtualBox software,
-select that same Ubuntu virtual machine from the list, and press the green **Start** button . All of those pesky setup steps only needed to be done once.    
+When you want to start up your Linux virtual machine again, you can open up your VirtualBox software.
+
+![image](https://user-images.githubusercontent.com/12129459/123843340-d0f5ac00-d8df-11eb-8150-a93ab92d7b6d.png)
+
+Select that same Ubuntu virtual machine from the list, and press the green **Start** button. All of those pesky setup steps only needed to be done once.    
