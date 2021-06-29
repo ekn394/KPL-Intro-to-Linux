@@ -44,14 +44,16 @@ Click **Finish**.
 <hr>
 
 <h2> Downloading a Linux Desktop image (.iso)</h2>
-For this course, we will want Ubuntu 20.04.2.0 LTS which you can find at the top of the top of the following <a href="https://ubuntu.com/download/desktop">page</a>. 
-<br>
-https://ubuntu.com/download/desktop
-  
-<br>There are two options, 20.04.2.0 LTS (meaning Long Term Support)
-and another download option, version 21.04. We want the earlier one, 20.04.2.0 LTS. 
 
-This will be a LONG download (~3 Gigs of space)
+Linux are countless varieties (called 'distributions' or 'distros'). Each one can be tailor made for a specific purpose or style, and being free and open-source anyone willing to put in enough time and effort can create their own at anytime.  
+
+
+For this beginner course, we will be using a user friendly Linux distribution called _Ubuntu_.  We specifically want _Ubuntu version 20.04.2.0 LTS_ (the LTS stands for 'long term support'). 
+
+
+You can find a download link for this version at the <a href="https://ubuntu.com/download/desktop"> downloads page </a> of Ubuntu's official website. (https://ubuntu.com/download/desktop)
+
+This is going to be a LONG download (~3 Gigs of space).
 
 <hr>
 
