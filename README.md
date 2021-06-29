@@ -155,5 +155,59 @@ Use your arrow keys to highlight "Install Ubuntu" and press the Enter key.
 
 This will take a minute
 
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/123847885-12d52100-d8e5-11eb-8f3d-5d5cc43194b0.png)
+A new (optional) setup window will appear.  I selected **Continue**
+
+Next, I hit Continue to select the default English(US) keyboard layout. 
+
+![image](https://user-images.githubusercontent.com/12129459/123848146-5d569d80-d8e5-11eb-9d70-c390ca12b87d.png)
+
+I also left these as the defaults, and hit **Continue**.
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/123848286-8e36d280-d8e5-11eb-97e9-070042519b7e.png)
+
+This next page, _looks_ scary.  It is asking if it can erase the disk (hard drive) and install Ubuntu.  **This applies to the Virtual Machine's ...new "Virtual hard drive" not your whole computer!** 
+If this WASN'T a virtual machine, this would be a very good double check to make sure you want to erase your computer and install Ubuntu.  In this case we are wiping our ...empty virtual machine, and installing Ubuntu. 
+
+If you have been following along so far, and the very top of this window says something like "UbuntuVM [Running] - Oracle VM VirtualBox" ...
+
+![image](https://user-images.githubusercontent.com/12129459/123852943-e0c6bd80-d8ea-11eb-96a9-ab7a2c086e00.png)
+
+...click the **Install Now** button in the bottom right. 
+
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/123853299-4ca92600-d8eb-11eb-9a22-e1e954ccb49f.png)
+
+Next it will give you details about partition tables.  Since this is a virtual machine that we can easily delete later with the click of a button, we don't need to stress out about any of those partition table details. Don't worry about it.  There are other circumstances where you might want to write this information down, but in this virtual machine scenario, it doesn't matter, so we can just click **Continue**.
+
+Click Continue. 
+
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/123853883-f8527600-d8eb-11eb-8912-85d08ccd2120.png)
+
+You can select your default location/timezone.  It predicts that "Toronto" is a good location for me, and I will just leave it as is. 
+
+Click Continue. 
+
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/123854463-bd9d0d80-d8ec-11eb-9e84-71b885cce7e9.png)
+
+It asks for some details, I chose the name 'evan' but it doesn't need to be your real name, and I chose a memorable password.  **Don't forget this password, you will need it!**
+
+Click Continue. 
+
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/123855295-bd514200-d8ed-11eb-8674-72db74739274.png)
+
+Sit back and wait for a minute or two while it sets up for the first time, and it doesn't hurt to read the promotional material scrolling by about what comes with your brand new Ubuntu installation. 
+
+
 
 
