@@ -239,9 +239,13 @@ Press the **Restart Now** button.  This will only restart the virtual machine, n
 
 <br>
 
-It will get stuck at a step that says "Remove Installation medium and press Enter".  The virtual machine *THINKS* that we have some kind of Ubuntu installation USB stick plugged in (we don't, but it *WOULD* think that).  
+<hr>
 
-Just **press Enter**.  This is all just first time stuff that shouldn't come up again.
+![image](https://user-images.githubusercontent.com/12129459/123993636-99980580-d99a-11eb-8ab9-ccf7dbb98743.png)
+
+It will get stuck at a step that says "Please remove the installation medium, then press ENTER:".  The virtual machine *THINKS* that we have some kind of Ubuntu installation USB stick plugged in (we don't, but that is how it thinks it was setup).  It's fine.  
+
+Just **press Enter**.  This is all just first time setup stuff that shouldn't ever come up again.
 
 <br>
 
