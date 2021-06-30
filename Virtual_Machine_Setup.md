@@ -7,7 +7,6 @@ This virtual machine can even use a totally different operating system!  For exa
 
 Go to https://virtualbox.org/ and download the newest version of their VirtualBox software (as of this writing is version 6.1)
 
-
 [![image](https://user-images.githubusercontent.com/12129459/123864712-12468580-d8f9-11eb-990f-c05538c4fcfa.png)](https://www.virtualbox.org/wiki/Downloads)
 
 There should be a large blue 'Download' button in the center of your browser window.  
@@ -24,7 +23,7 @@ That should start a download of the Virtualbox installer.
  
 <h2> Installing Virtualbox</h2>
 
-Find that VirtualBox installer that you just downloaded, and double click on it. In my case, the file was in my _Downloads_ folder under the name **VirtualBox-6.1.22-144080-Win.exe** but it may have a slightly different name for you depending on what version you downloaded. 
+Find that VirtualBox installer that you just downloaded, and double click on it. In my case, the file was in my _Downloads_ folder under the name **VirtualBox-6.1.22-144080-Win.exe** but it may have a slightly different file name for you depending on what version you downloaded. 
 
 ![image](https://user-images.githubusercontent.com/12129459/123866890-a31e6080-d8fb-11eb-9346-0700ff54b077.png)
 
@@ -45,7 +44,7 @@ Click **Finish**.
 
 <h2> Downloading a Linux Desktop image (.iso)</h2>
 
-Linux are countless varieties (called 'distributions' or 'distros'). Each one can be tailor made for a specific purpose or style, and being free and open-source anyone willing to put in enough time and effort can create their own at anytime.  
+Linux has countless varieties (called 'distributions' or 'distros'), each one can be tailor made for a specific purpose or style.  Being free and open-source, anyone willing to put in enough time and effort can create their own Linux at anytime. 
 
 
 For this beginner course, we will be using a user friendly Linux distribution called _Ubuntu_.  We specifically want _Ubuntu version 20.04.2.0 LTS_ (the LTS stands for 'long term support'). 
@@ -82,7 +81,7 @@ Click **Next**.
 ![image](https://user-images.githubusercontent.com/12129459/123837909-60e42780-d8d9-11eb-83f8-0a6069705d85.png)
 
 On the next page, it will ask you how much Memory (RAM) you want to allocate to the virtual machine. 
-_**As a rule of thumb, choose one quarter of the available ram.**_  In my case, I have 8000 MB (or 8 GB) of RAM, so I will chose 1/4 of that, and select around 2000 MB (2 GB).  The absolute numbers for you may be different, but moving the slider to be 1/4 the way up is a safe starting point.  When you do not have the virtual machine running, your default operating system will have access to 100% of the RAM again. You can choose to use less than 25% for your virtual machine, but don't select any more than that, or you risk other problems (like not leaving enough for your main operating system). 
+_**As a rule of thumb, choose one quarter of the available ram.**_  In my case, I have 8000 MB (or 8 GB) of RAM, so I will chose 1/4 of that, and select around 2000 MB (2 GB).  The absolute numbers for you may be different, but moving the slider to be 1/4 the way up is a safe starting point.  When you do not have the virtual machine running, your default operating system will have access to 100% of the RAM again. 
 
 Click **Next**. 
 
@@ -120,9 +119,9 @@ Click **Next**.
 
 <hr>
 
-Now, we find ourselves back on the main Oracle VM VirtualBox Manager.  
+Now, we find ourselves back on the main screen for our VirtualBox program.  
 
-We should now have 1 new virtual machine listed on the left hand side. Note it never asked us for the Ubuntu iso file, it will do that the first time we start that virtual machine.  
+We should now have one new virtual machine listed on the left side. Note: It never asked us for our Ubuntu iso file. It will ask for that the first time we start that virtual machine.  
 
 ![image](https://user-images.githubusercontent.com/12129459/123843340-d0f5ac00-d8df-11eb-8150-a93ab92d7b6d.png)
 
@@ -132,9 +131,9 @@ With your new virtual device selected, click the **Start** button.
 
 ![image](https://user-images.githubusercontent.com/12129459/123844716-5af24480-d8e1-11eb-87a5-122ba129f82d.png)
 
-On this first start-up for this virtual machine, it will ask you for the location of the operating system iso file.  Here we want to click the folder icon 
+On this first start-up for this virtual machine, it will now ask for the location of the operating system iso file.   
 
-Click the folder icon   ![image](https://user-images.githubusercontent.com/12129459/123845032-b91f2780-d8e1-11eb-9d63-bdcdffedb326.png)
+**Click the folder icon**   ![image](https://user-images.githubusercontent.com/12129459/123845032-b91f2780-d8e1-11eb-9d63-bdcdffedb326.png)
 
 If you don't have any 'disk images' loaded here (I don't either), then you will need to click the **Add button** and locate that Ubuntu iso file. 
 
@@ -144,7 +143,7 @@ Then click **Add**
 
 ![image](https://user-images.githubusercontent.com/12129459/123845389-1e731880-d8e2-11eb-95a9-3489e7983eb7.png)
 
-Locate the ubuntu iso file that we downloaded earlier, and double click on it. 
+Locate the Ubuntu iso file that we downloaded earlier, and **double-click on it**. 
 
 ![image](https://user-images.githubusercontent.com/12129459/123845524-482c3f80-d8e2-11eb-96a4-ade49588f786.png)
 
@@ -168,13 +167,13 @@ It might ask you for your language of choice.  I choose the default, English, an
 
 Next, pick the third option which is to **Install Ubuntu**
 
-Use your arrow keys to highlight "Install Ubuntu" and press the Enter key. 
+Use your arrow keys to highlight "Install Ubuntu" and **press the Enter key**. 
 
 <hr>
 
 ![image](https://user-images.githubusercontent.com/12129459/123847341-7f9beb80-d8e4-11eb-9237-0ebd3332aea9.png)
 
-This will take a minute
+This may take a few minutes.
 
 <hr>
 
@@ -191,7 +190,7 @@ I also left these as the defaults, and hit **Continue**.
 
 ![image](https://user-images.githubusercontent.com/12129459/123848286-8e36d280-d8e5-11eb-97e9-070042519b7e.png)
 
-This next page, _looks_ scary.  It is asking if it can erase the disk (hard drive) and install Ubuntu.  **This applies to the Virtual Machine's ...new "Virtual hard drive" not your whole computer!** 
+This next page, _looks_ scary.  It is asking if it can erase the disk (hard drive) and install Ubuntu.  _This applies to the Virtual Machine's ...new "Virtual hard drive" not your whole computer!_
 If this WASN'T a virtual machine, this would be a very good double check to make sure you want to erase your computer and install Ubuntu.  In this case we are wiping our ...empty virtual machine, and installing Ubuntu. 
 
 If you have been following along so far, and the very top of this window says something like "UbuntuVM [Running] - Oracle VM VirtualBox" ...
@@ -240,22 +239,22 @@ Press the **Restart Now** button.  This will only restart the virtual machine, n
 
 <br>
 
-It will get stuck at a step that says "Remove Installation medium and press Enter".  The virtual machine *THINKS* that we have some kind of Ubuntu installation USB stick plugged in (we don't but it *WOULD* think that).  
+It will get stuck at a step that says "Remove Installation medium and press Enter".  The virtual machine *THINKS* that we have some kind of Ubuntu installation USB stick plugged in (we don't, but it *WOULD* think that).  
 
-Just **press Enter**.  This is all just first time stuff, that shouldn't come up again.
+Just **press Enter**.  This is all just first time stuff that shouldn't come up again.
 
 <br>
 
 ![image](https://user-images.githubusercontent.com/12129459/123856809-867c2b80-d8ef-11eb-8ddd-ad94f065383a.png)
 
-Click on your chosen username.  Type in that password that I mentioned you would need again, and press Enter. 
+Click on your chosen username.  Type in that password that I mentioned you would need, and press Enter. 
 
 <hr>
 
 ![image](https://user-images.githubusercontent.com/12129459/123857242-0dc99f00-d8f0-11eb-832b-baa7261585c8.png)
 
 
-The first page it shows, similar to Windows computers, is a bunch of nonsense that you don't need.  
+The first screen that you are greeted with, similar to Windows computers, is a bunch of nonsense that you don't need.  
 
 Click **Skip**, then **Next**, then I chose "No, don't send system info", **Next**, I left the location services off (which was the default). And then finally, **Done**.  
 
