@@ -44,7 +44,7 @@ Click **Finish**.
 
 <h2> Downloading a Linux Desktop image (.iso)</h2>
 
-Linux has countless varieties (called 'distributions' or 'distros'), each one can be tailor made for a specific purpose or style.  Being free and open-source, anyone willing to put in enough time and effort can create their own Linux at anytime. 
+Linux has countless varieties (called 'distributions' or 'distros'), each one can be tailor made for a specific purpose or style.  Being free and open-source, anyone willing to put in enough time and effort could create their own personal Linux distribution at anytime. 
 
 
 For this beginner course, we will be using a user friendly Linux distribution called _Ubuntu_.  We specifically want _Ubuntu version 20.04.2.0 LTS_ (the LTS stands for 'long term support'). 
