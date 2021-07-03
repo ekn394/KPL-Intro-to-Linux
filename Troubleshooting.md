@@ -6,14 +6,14 @@
 
 <hr>
  
-#### Fatal Boot Error 
+### Fatal Boot Error 
 "FATAL: No bootable medium found! System halted." 
 
 ![image](https://user-images.githubusercontent.com/12129459/124355494-74e09f80-dbdf-11eb-9e30-1dc4152dd88b.png)
 
 This means that an operating system image was not successfully loaded the first time that the VM (virtual machine) tried to boot up.
 
-#### Fatal Boot Error Solution
+### Fatal Boot Error Solution
 
 ![image](https://user-images.githubusercontent.com/12129459/124356539-824c5880-dbe4-11eb-97f1-24827da9967f.png)
 
