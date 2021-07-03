@@ -30,8 +30,10 @@ With that done, you should now see the name of your image file instead of the wo
 
 Click Ok, to close this settings window. 
 
-#### Test
-
 ![image](https://user-images.githubusercontent.com/12129459/124356793-08b56a00-dbe6-11eb-8d7a-2461889780e8.png)
 
 Finally, turn your VM off and on again.  I think the easiest way to do this is to right click on your VM and select _Reset_.
+
+<hr>
+
+
