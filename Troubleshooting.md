@@ -9,7 +9,7 @@
 
 ![image](https://user-images.githubusercontent.com/12129459/124355494-74e09f80-dbdf-11eb-9e30-1dc4152dd88b.png)
 
-This means that an Operating system was not successfully 'chosen' the first time that VM (virtual machine) was loaded.  
+This means that an operating system image was not successfully loaded the first time that the VM (virtual machine) tried to boot up.
 
 #### Fatal Boot Error Solution
 
