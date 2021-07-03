@@ -3,6 +3,8 @@
 [Fatal Error: No bootable medium found! System halted](#fatal-boot-error)
 <br>
 [Fatal Error: Solution ](#fatal-boot-error-solution)
+
+<hr>
  
 #### Fatal Boot Error 
 "FATAL: No bootable medium found! System halted." 
