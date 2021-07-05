@@ -31,28 +31,53 @@ Find that VirtualBox installer that you just downloaded.  In my case, the file w
 
 Double click on that VirtualBox installer to start the installation process.
 
-![image](https://user-images.githubusercontent.com/12129459/124481593-6ed0f700-dd76-11eb-9e70-2c38750d76ad.png)
+![image](https://user-images.githubusercontent.com/12129459/124507240-66d77e00-dd9b-11eb-8765-67328f538c99.png)
 
-Click Allow when your Mac panics that you are trying to install software from the outside world. 
+The first thing that will happen is that your mac will panic that you are trying to install software from the outside world. 
 
-![image](https://user-images.githubusercontent.com/12129459/124481686-8f00b600-dd76-11eb-9f66-82058c0e693b.png)
-
-Follow the installation prompts, sticking with the defaults they suggest for each question. 
-
-![image](https://user-images.githubusercontent.com/12129459/124481885-c2434500-dd76-11eb-85fb-4270de49af78.png)
-
-At one point, you might get an error that says "System Extension Blocked".  Click on "Open Security Settings", then "Allow" programs by Oracle (such as VirtualBox) to run. 
-
-![image](https://user-images.githubusercontent.com/12129459/124482283-1d753780-dd77-11eb-8657-e77deff350a3.png)
-
-Installation complete. 
-
-![image](https://user-images.githubusercontent.com/12129459/124482355-2fef7100-dd77-11eb-80a8-6bf665af47be.png)
-
-It is up to you if you want to keep the installation file or not. Opinion: Move it to the trash.  If you want it back... get it back out of the trash.  
-
-
+Click **Continue** on that pop-up message. 
 <hr>
+
+![image](https://user-images.githubusercontent.com/12129459/124508128-4b6d7280-dd9d-11eb-97d2-f10c1b51fe2d.png)
+
+Click **Continue** on that first page of the installer. 
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/124508184-617b3300-dd9d-11eb-8afa-abdedabe2da8.png)
+
+Continue through the installation using the defaults at each step. Click **Install** on this screen. 
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/124508937-e31f9080-dd9e-11eb-91f9-de53f2822e06.png)
+
+At least once during this installation, you will be asked to provide a username and password in order to continue. Enter the user name and password that will allow you to make installations on your device, and click **Install Software**.
+<hr>
+
+
+![image](https://user-images.githubusercontent.com/12129459/124509478-0dbe1900-dda0-11eb-95df-b3d50e543b48.png)
+
+
+The next error message that may pop-up will _seem_ to break the entire installation.  Don't worry, it's fine. 
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/124509173-78228980-dd9f-11eb-8617-0fa2b77e320f.png)
+
+You might get an error that says "System Extension Blocked".  
+Click on "Open Security Settings"
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/124509758-71e0dd00-dda0-11eb-9082-8edc4cc53352.png)
+In the computer's Security and Privacy settings, you should have an "Allow" button that will you can click to enable programs by Oracle (such as VirtualBox) to run. 
+Click the **Allow** button.
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/124509877-ace31080-dda0-11eb-9d68-bca84a7a3360.png)
+The program should now be installed.  But if you want to be sure, you can run the installer program again, this time it should work and give you a green checkmark of success at the end.  
+
+Installation is complete for our VirtualBox. Next we need a download of the Linux Operating system, and to put those two things together.  Read on. 
+<hr>
+
+
 
 <h2> Downloading a Linux Desktop image (.iso)</h2>
 
@@ -70,7 +95,7 @@ This is going to be a LONG download (~3 Gigs of space).
 
 <h2> Setting up your new Linux Virtual Machine</h2>
 
-![image](https://user-images.githubusercontent.com/12129459/124483537-7396aa80-dd78-11eb-94dd-ba371fc97556.png)
+![image](https://user-images.githubusercontent.com/12129459/124511277-bf127e00-dda3-11eb-8beb-0a5d2272dfa2.png)
 
 If the installation was successful, you should see a VirtualBox icon in your Applications folder.  Double click on that new VirtualBox icon. 
 
@@ -92,16 +117,16 @@ Click **Continue**.
 
 <hr>
 
-![image](https://user-images.githubusercontent.com/12129459/123837909-60e42780-d8d9-11eb-83f8-0a6069705d85.png)
+![image](https://user-images.githubusercontent.com/12129459/124510499-f3853a80-dda1-11eb-813d-724a48d3587b.png)
 
 On the next page, it will ask you how much Memory (RAM) you want to allocate to the virtual machine. 
-_**As a rule of thumb, choose one quarter of the available ram.**_  In my case, I have 8000 MB (or 8 GB) of RAM, so I will chose 1/4 of that, and select around 2000 MB (2 GB).  The absolute numbers for you may be different, but moving the slider to be 1/4 the way up is a safe starting point.  When you do not have the virtual machine running, your default operating system will have access to 100% of the RAM again. 
+_**As a rule of thumb, choose one quarter of the available ram.**_  In this case, I have ~32000 MB (or 32 GB) of RAM, so I will chose 1/4 of that, and select around 8000 MB (8 GB).  The absolute numbers for you may be different, but moving the slider to be 1/4 the way up is a safe starting point.  When you do not have the virtual machine running, your default operating system will have access to 100% of the RAM again. 
 
-Click **Next**. 
+Click **Continue**. 
 
 <hr>
 
-![image](https://user-images.githubusercontent.com/12129459/123838990-9b9a8f80-d8da-11eb-88b8-085494b25da2.png)
+![image](https://user-images.githubusercontent.com/12129459/124510596-2cbdaa80-dda2-11eb-8eba-d528a3aa97f5.png)
 
 On the Hard disk page, select **Create a Virtual hard disk now**
 
@@ -109,27 +134,27 @@ Click **Create**.
 
 <hr>
 
-![image](https://user-images.githubusercontent.com/12129459/123840809-d0a7e180-d8dc-11eb-8b1d-2e93712cf9ff.png)
+![image](https://user-images.githubusercontent.com/12129459/124510616-39da9980-dda2-11eb-8045-784373924cfc.png)
 
 On the Hard disk file type page, pick **VDI (VirtualBox Disk)** . 
 
-Click **Next**. 
+Click **Continue**. 
 
 <hr>
 
-![image](https://user-images.githubusercontent.com/12129459/123841045-15cc1380-d8dd-11eb-89dd-c372be7c6bd8.png)
+![image](https://user-images.githubusercontent.com/12129459/124510639-44952e80-dda2-11eb-9305-bc1d65765bb4.png)
 
 On the next screen, about storage, select **Dynamically allocated**. 
 
-Click **Next**. 
+Click **Continue**. 
 
 <hr>
 
-![image](https://user-images.githubusercontent.com/12129459/123842280-993a3480-d8de-11eb-93fa-fd029659a7d5.png)
+![image](https://user-images.githubusercontent.com/12129459/124510658-4ced6980-dda2-11eb-897c-c21e62b8c31d.png)
 
 Lastly, I used the default 10 GB of hard drive space.  My computer has 50 GB free, so that shouldn't be a problem, but you may need to clear up some space.  Note, since I chose "dynamically allocate" in the previous step, this virtual machine can take UP TO 10 GB.  It isn't already taking up that much space.  
 
-Click **Next**. 
+Click **Create**. 
 
 <hr>
 
@@ -137,11 +162,23 @@ Now, we find ourselves back on the main screen for our VirtualBox program.
 
 We should now have one new virtual machine listed on the left side. Note: It never asked us for our Ubuntu iso file. It will ask for that the first time we start that virtual machine.  
 
-![image](https://user-images.githubusercontent.com/12129459/123843340-d0f5ac00-d8df-11eb-8150-a93ab92d7b6d.png)
+![image](https://user-images.githubusercontent.com/12129459/124510743-81612580-dda2-11eb-8fff-e7ebdb7c2890.png)
 
 With your new virtual device selected, click the **Start** button.
 
 <hr>
+
+![image](https://user-images.githubusercontent.com/12129459/124511923-34328300-dda5-11eb-908d-bf7d1654fe61.png)
+The first error message will be a warning about accessibility features.  We will want to say yes, so that our keyboard and mouse can interact with our new virtual machine.  
+
+Click **Open System Preferences**
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/124512061-85427700-dda5-11eb-898d-78320fbb9420.png)
+
+We are back in the Security & Privacy settings again.  This time we are in the 'Privacy' tab. 
+We can see a greyed out section in the middle that has an empty checkbox beside "VirtualBox".  
+
 
 ![image](https://user-images.githubusercontent.com/12129459/123844716-5af24480-d8e1-11eb-87a5-122ba129f82d.png)
 
