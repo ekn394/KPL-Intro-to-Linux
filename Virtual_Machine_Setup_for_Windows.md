@@ -1,4 +1,4 @@
-# Setting up Ubuntu Linux on a Virtual Machine
+# Setting up Ubuntu Linux on a Virtual Machine (using Windows)
 
 <h2> Virtual Machines </h2>
 
