@@ -179,30 +179,49 @@ Click **Open System Preferences**
 We are back in the Security & Privacy settings again.  This time we are in the 'Privacy' tab. 
 We can see a greyed out section in the middle that has an empty checkbox beside "VirtualBox".  
 
+![image](https://user-images.githubusercontent.com/12129459/124513053-e5d2b380-dda7-11eb-9a7b-307cbbb15fb8.png)
 
-![image](https://user-images.githubusercontent.com/12129459/123844716-5af24480-d8e1-11eb-87a5-122ba129f82d.png)
+Click on the padlock in the bottom left corner to be able to make changes. 
 
-On this first start-up for this virtual machine, it will now ask for the location of the operating system iso file.   
+<hr>
+
+
+![image](https://user-images.githubusercontent.com/12129459/124513114-0e5aad80-dda8-11eb-8b20-0e78e063240e.png)
+
+Once again, we will need to supply an administrator User Name and Password, then click the **Unlock** button.
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/124513177-35b17a80-dda8-11eb-88da-a9a3df662195.png)
+
+With that unlocked, we chould be able to **click on the checkbox beside VirtualBox.** 
+
+You may want to click the lock again to lock in these settings. 
+
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/124513308-7f01ca00-dda8-11eb-9004-b3b8befaaf6c.png)
+
+On this first start-up for this virtual machine, it will now ask for the location of your chosen operating system iso file.   
 
 **Click the folder icon**   ![image](https://user-images.githubusercontent.com/12129459/123845032-b91f2780-d8e1-11eb-9d63-bdcdffedb326.png)
 
 If you don't have any 'disk images' loaded here (I don't either), then you will need to click the **Add button** and locate that Ubuntu iso file. 
 
-![image](https://user-images.githubusercontent.com/12129459/123845128-d0f6ab80-d8e1-11eb-8bb9-c5f7d3f6b03d.png)
+![image](https://user-images.githubusercontent.com/12129459/124513408-c2f4cf00-dda8-11eb-8de6-16ec2236d51a.png)
 
 Then click **Add**
 
-![image](https://user-images.githubusercontent.com/12129459/123845389-1e731880-d8e2-11eb-95a9-3489e7983eb7.png)
+![image](https://user-images.githubusercontent.com/12129459/124513454-d9028f80-dda8-11eb-8a05-0076e3132591.png)
 
-Locate the Ubuntu iso file that we downloaded earlier, and **double-click on it**. 
+Locate the Ubuntu iso file that we downloaded earlier, and click **Open**. 
 
-![image](https://user-images.githubusercontent.com/12129459/123845524-482c3f80-d8e2-11eb-96a4-ade49588f786.png)
+![image](https://user-images.githubusercontent.com/12129459/124513490-f20b4080-dda8-11eb-9824-4a33c982a065.png)
 
 Now with your Ubuntu file selected, you can click the **Choose** button. 
 
 <hr>
 
-![image](https://user-images.githubusercontent.com/12129459/123845608-64c87780-d8e2-11eb-9db1-17c9681a2715.png)
+![image](https://user-images.githubusercontent.com/12129459/124513535-02232000-dda9-11eb-91d3-da6c5380d3a4.png)
 
 Finally, click **Start**
 
@@ -210,104 +229,81 @@ Finally, click **Start**
 
 <h3> First Boot Up into Ubuntu Linux</h3>
 
-**Warning: For the next few steps you will need to use your keyboard, not a mouse**
+![image](https://user-images.githubusercontent.com/12129459/124513580-18c97700-dda9-11eb-8926-8c6acf1af2ca.png)
 
-It might ask you for your language of choice.  I choose the default, English, and hit the Enter key on my keyboard.  
-
-![image](https://user-images.githubusercontent.com/12129459/123846573-8a09b580-d8e3-11eb-985b-7aabf6b7ed0e.png)
-
-Next, pick the third option which is to **Install Ubuntu**
-
-Use your arrow keys to highlight "Install Ubuntu" and **press the Enter key**. 
+You might get some mini-pop up messages letting you know that they keyboard and mouse can interact with this device, sure.  Close those popups. 
 
 <hr>
 
-![image](https://user-images.githubusercontent.com/12129459/123847341-7f9beb80-d8e4-11eb-9237-0ebd3332aea9.png)
+![image](https://user-images.githubusercontent.com/12129459/124513740-7958b400-dda9-11eb-9f93-5a09aad5dbdc.png)
 
-This may take a few minutes.
+After a few seconds I get an screen that asks me if I want to Try or Install Ubuntu.  I want to **Install Ubuntu**.
+
+![image](https://user-images.githubusercontent.com/12129459/124513801-9a210980-dda9-11eb-8e52-54e42c594e29.png)
+
+For Keyboard layout.  I choose the default, **English (US)**, selected **Continue**.  
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/124513910-d3f21000-dda9-11eb-8f74-58b4859e962c.png)
+
+Leave all of the default options as they are and click **Continue**.
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/124513950-eec48480-dda9-11eb-9152-979482beb781.png)
+
+This screen can look scary because it asks if you want to "Erase disk and install Ubuntu".  Yes.  We want to erase the Virtual machine, and install Ubuntu.  Leave the defaults just as they are and click **Install Now**.  
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/124514053-26cbc780-ddaa-11eb-8698-77e82c566bf8.png)
+
+This message tells you which partitions (of your virtual machine) will be changed to Linux.  Again, don't stress out about any of this, just click **Continue**.
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/124514112-4fec5800-ddaa-11eb-8abb-b85479eabbe5.png)
+
+You can select your default location/timezone.  It predicts that "Toronto" is a good location for me, and I will just leave it as is and click **Continue**.
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/124514201-790ce880-ddaa-11eb-998e-b54044432937.png)
+
+Almost there, don't give up.  
+
+At this point you can give a username and create a password that you will use to log in to your new Linux virtual machine.  **Don't forget this password, you will need it later!**
+
+Click **Continue**
 
 <hr>
 
-![image](https://user-images.githubusercontent.com/12129459/123847885-12d52100-d8e5-11eb-8f3d-5d5cc43194b0.png)
+![image](https://user-images.githubusercontent.com/12129459/124514310-c1c4a180-ddaa-11eb-902b-681286f851a0.png)
 
-A new (optional) setup window will appear.  I selected **Continue**
-
-Then, I hit **Continue** again to select the default English(US) keyboard layout. 
-
-![image](https://user-images.githubusercontent.com/12129459/123848146-5d569d80-d8e5-11eb-9d70-c390ca12b87d.png)
-
-I also left these as the defaults, and hit **Continue**.
-<hr>
-
-![image](https://user-images.githubusercontent.com/12129459/123848286-8e36d280-d8e5-11eb-97e9-070042519b7e.png)
-
-This next page, _looks_ scary.  It is asking if it can erase the disk (hard drive) and install Ubuntu.  _This applies to the Virtual Machine's ...new "Virtual hard drive" not your whole computer!_
-If this WASN'T a virtual machine, this would be a very good double check to make sure you want to erase your computer and install Ubuntu.  In this case we are wiping our ...empty virtual machine, and installing Ubuntu. 
-
-If you have been following along so far, and the very top of this window says something like "UbuntuVM [Running] - Oracle VM VirtualBox" ...
-
-![image](https://user-images.githubusercontent.com/12129459/123852943-e0c6bd80-d8ea-11eb-96a9-ab7a2c086e00.png)
-
-...click the **Install Now** button in the bottom right. 
+Sit back and wait for a few minutes while Ubuntu goes through the first time setup proccess.  It doesn't hurt to read the promotional material scrolling by about what comes with your brand new Ubuntu installation. 
 
 <hr>
 
-![image](https://user-images.githubusercontent.com/12129459/123853299-4ca92600-d8eb-11eb-9a22-e1e954ccb49f.png)
+![image](https://user-images.githubusercontent.com/12129459/124514534-42839d80-ddab-11eb-8150-1afca694412c.png)
 
-Next it will give you details about partition tables.  Since this is a virtual machine that we can easily delete later with the click of a button, we don't need to stress out about any of those partition table details. Don't worry about it.  There are other circumstances where you might want to write this information down, but in this virtual machine scenario, it doesn't matter, so we can just click **Continue**.
+When the installation is complete, it will say that you need to restart the computer.  You only need to restart the _virtual machine_, not your regular computer.  
 
-Click Continue. 
-
-<hr>
-
-![image](https://user-images.githubusercontent.com/12129459/123853883-f8527600-d8eb-11eb-8912-85d08ccd2120.png)
-
-You can select your default location/timezone.  It predicts that "Toronto" is a good location for me, and I will just leave it as is. 
-
-Click Continue. 
+Press the **Restart Now** button.  
 
 <hr>
 
-![image](https://user-images.githubusercontent.com/12129459/123854463-bd9d0d80-d8ec-11eb-9e84-71b885cce7e9.png)
+![image](https://user-images.githubusercontent.com/12129459/124514600-67781080-ddab-11eb-83c4-c08a810cbd41.png)
 
-It asks for some details, I eventually went with the name 'evan' instead of 'me' shown in the screenshot above, but it certainly doesn't need to be your real name.  You also have to chose a (memorable) password.  **Don't forget this password, you will need it!**
+This first time restart will get stuck at a step that says "Please remove the installation medium, then press ENTER:".  The virtual machine *THINKS* that we have some kind of Ubuntu installation USB stick plugged in (we don't, but that is how it thinks it was setup).  It's fine.  
 
-Click Continue. 
-
-<hr>
-
-![image](https://user-images.githubusercontent.com/12129459/123855295-bd514200-d8ed-11eb-8674-72db74739274.png)
-
-Sit back and wait for a few minutes while Ubuntu does its first time setup.  It doesn't hurt to read the promotional material scrolling by about what comes with your brand new Ubuntu installation. 
-
-<hr>
-
-![image](https://user-images.githubusercontent.com/12129459/123856075-a7904c80-d8ee-11eb-8459-1f67dca93307.png)
-
-When the installation is complete, it will say that you need to restart the computer.  
-
-Press the **Restart Now** button.  This will only restart the virtual machine, not your regular computer.  
+Just **press the return key on your keyboard**.  This is all just first time setup stuff that shouldn't ever come up again.
+The onscreen keyboard say press ENTER.  If you are using a Mac keyboard, that is the _return_ key. 
 
 <br>
 
-<hr>
+![image](https://user-images.githubusercontent.com/12129459/124516523-d6576880-ddaf-11eb-8c0a-82dd9a5ed71d.png)
 
-![image](https://user-images.githubusercontent.com/12129459/123993636-99980580-d99a-11eb-8ab9-ccf7dbb98743.png)
-
-It will get stuck at a step that says "Please remove the installation medium, then press ENTER:".  The virtual machine *THINKS* that we have some kind of Ubuntu installation USB stick plugged in (we don't, but that is how it thinks it was setup).  It's fine.  
-
-Just **press Enter**.  This is all just first time setup stuff that shouldn't ever come up again.
-
-<br>
-
-![image](https://user-images.githubusercontent.com/12129459/123856809-867c2b80-d8ef-11eb-8ddd-ad94f065383a.png)
-
-Click on your chosen username.  Type in that password that I mentioned you would need, and press Enter. 
+Click on your chosen username, and type in your chosen password and press the **return** key. 
 
 <hr>
 
 ![image](https://user-images.githubusercontent.com/12129459/123857242-0dc99f00-d8f0-11eb-832b-baa7261585c8.png)
-
 
 The first screen that you are greeted with, similar to Windows computers, is a bunch of nonsense that you don't need.  
 
@@ -315,24 +311,60 @@ Click **Skip**, then **Next**, then I chose "No, don't send system info", **Next
 
 <hr>
 
-![image](https://user-images.githubusercontent.com/12129459/123858120-24242a80-d8f1-11eb-80e2-5cef90d73fef.png)
+![image](https://user-images.githubusercontent.com/12129459/124516630-220a1200-ddb0-11eb-8e76-b4b3d29f1943.png)
 
-**Congratuations, setup is complete!**
-
-You now have a virtual computer running Ubuntu Linux 20.04.  
+**Congratuations, you now have a virtual Ubuntu Linux computer!**
 
 <hr>
 
-![image](https://user-images.githubusercontent.com/12129459/123859369-8d586d80-d8f2-11eb-93fd-dc009d9cbcb3.png)
+![image](https://user-images.githubusercontent.com/12129459/124516760-6d242500-ddb0-11eb-9f03-dedced8bc566.png)
 
-When you eventually go to either to shutdown this virtual machine, or close the VirtualBox program that it lives within, you will be given 3 choices.  My suggestion is to go with the default **Send the shutdown signal**.
+One last Mac keyboard related item to address. 
+
+Notice that in the bottom right corner of this virtual machine, it will probably have a down arrow, then Left, then the Command symbol.  ![image](https://user-images.githubusercontent.com/12129459/124517439-f6882700-ddb1-11eb-851b-a0df7a844f6a.png)
+
+The VirtualBox program had to choose some key (which they call the 'host key') as a way to switch between having your keyboard communicating with the virtual machine, or to the host computer.  On a Mac it VirtualBox chooses the left Command key, which I think is a poor choice.  The Command key on a mac keyboard takes on the same role as the "Windows" key on a Windows computer.  This key is very useful on Ubuntu Linux as the 'search' key that we will use (frequently) in this course.  I suggest you change the "host key" to be something other than the Left Command key.  I will show how to change it to the ... Right Command key.   
 
 <hr>
 
-![image](https://user-images.githubusercontent.com/12129459/123859855-2be4ce80-d8f3-11eb-9314-bebe8625eacc.png)
+![image](https://user-images.githubusercontent.com/12129459/124517292-9b563480-ddb1-11eb-8d19-0711335c2392.png)
 
-When you want to start up your Linux virtual machine again, you can open up your VirtualBox software.
+Right-click on that down arrow icon and select **Keyboard Settings...**
 
-![image](https://user-images.githubusercontent.com/12129459/123843340-d0f5ac00-d8df-11eb-8150-a93ab92d7b6d.png)
+<hr>
 
-Select that same Ubuntu virtual machine from the list, and press the green **Start** button. All of those pesky setup steps only needed to be done once.    
+![image](https://user-images.githubusercontent.com/12129459/124517380-d2c4e100-ddb1-11eb-82b6-e1f54d55e629.png)
+
+Where you see Left Command, click there.  Then press the right-side Command key, on your keyboard. 
+
+![image](https://user-images.githubusercontent.com/12129459/124517466-099af700-ddb2-11eb-9ec7-5f31c73bfe25.png)
+
+This is trickier than it seems, but there is an eraser tool if you accidentally assign the wrong key.  
+It should look like the image above, where the shortcut is no longer Left-Command.  (You don't _have_ to use Right-Command, but it would be convenient for you to change this away from being Left-Command.  
+
+Click **OK** and everything should be good to go. 
+
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/124517634-71514200-ddb2-11eb-8e61-35740b955278.png)
+
+To test out that search key, press the left-side Command key, and Linux _should_ bring up a search field. 
+
+This last step isn't absolutely critical, but I think it will be helpful to have the search key on your keyboard working.  
+
+This time, for sure, we are done our initial setup! Congratulations!
+
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/124517771-d147e880-ddb2-11eb-859e-6d6d5abda77e.png)
+
+When you eventually go to either to shutdown this virtual machine, or close the VirtualBox program that it lives within, you will be given 3 choices.  My suggestion is to go with **Send the shutdown signal**.  This simulates the steps of you clicking "shutdown". In an emergency, you can select Power off the machine.  That is a bit more abrupt and simulates you holding the power button to kill the power.  Just like in real life, best practice would be to shut down the machine properly so that it can close all of the programs running in the background in the correct order to make sure everything is in good working order.  
+
+<hr>
+
+![image](https://user-images.githubusercontent.com/12129459/124511277-bf127e00-dda3-11eb-8beb-0a5d2272dfa2.png)
+
+When you want to start up your Linux virtual machine again, you can open up your VirtualBox software which can be found in your Applications folder. 
+
+Select that same Ubuntu virtual machine from the list (if you followed these instructions you might have named it 'UbuntuVM', and press the green **Start** button. All of those pesky setup steps only needed to be done once.    
+
