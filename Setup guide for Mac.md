@@ -25,22 +25,32 @@ That should start a download of the Virtualbox installer.
 
 ![image](https://user-images.githubusercontent.com/12129459/124480859-b1460400-dd75-11eb-844a-47f4d877cca5.png)
 
-Find that VirtualBox installer that you just downloaded, and double click on it. In my case, the file was in my _Downloads_ folder under the name **VirtualBox-6.1.22-144080-OSX.dmg** but it may have a slightly different file name for you depending on what version you downloaded. 
+Find that VirtualBox installer that you just downloaded.  In my case, the file was in my _Downloads_ folder under the name **VirtualBox-6.1.22-144080-OSX.dmg** but it may have a slightly different file name for you depending on what version you downloaded. 
 
 ![image](https://user-images.githubusercontent.com/12129459/124481026-d9356780-dd75-11eb-8db5-26084884936e.png)
 
+Double click on that VirtualBox installer to start the installation process.
 
-Click **Next** to begin.
+![image](https://user-images.githubusercontent.com/12129459/124481593-6ed0f700-dd76-11eb-9e70-2c38750d76ad.png)
 
-Click **Next** to use the default install location.
+Click Allow when your Mac panics that you are trying to install software from the outside world. 
 
-It is up to you, but I unchecked the box for Quick Launch Bar, then clicked **Next**. 
+![image](https://user-images.githubusercontent.com/12129459/124481686-8f00b600-dd76-11eb-9f66-82058c0e693b.png)
 
-Click **Yes**. 
+Follow the installation prompts, sticking with the defaults they suggest for each question. 
 
-Click **Next**.
+![image](https://user-images.githubusercontent.com/12129459/124481885-c2434500-dd76-11eb-85fb-4270de49af78.png)
 
-Click **Finish**.
+At one point, you might get an error that says "System Extension Blocked".  Click on "Open Security Settings", then "Allow" programs by Oracle (such as VirtualBox) to run. 
+
+![image](https://user-images.githubusercontent.com/12129459/124482283-1d753780-dd77-11eb-8657-e77deff350a3.png)
+
+Installation complete. 
+
+![image](https://user-images.githubusercontent.com/12129459/124482355-2fef7100-dd77-11eb-80a8-6bf665af47be.png)
+
+It is up to you if you want to keep the installation file or not. Opinion: Move it to the trash.  If you want it back... get it back out of the trash.  
+
 
 <hr>
 
@@ -60,13 +70,17 @@ This is going to be a LONG download (~3 Gigs of space).
 
 <h2> Setting up your new Linux Virtual Machine</h2>
 
-In your VirtualBox software, click the **New** button.  
+![image](https://user-images.githubusercontent.com/12129459/124483537-7396aa80-dd78-11eb-94dd-ba371fc97556.png)
 
-![image](https://user-images.githubusercontent.com/12129459/123841861-13b68480-d8de-11eb-8080-36dbbf752418.png)
+If the installation was successful, you should see a VirtualBox icon in your Applications folder.  Double click on that new VirtualBox icon. 
+
+![image](https://user-images.githubusercontent.com/12129459/124483869-cff9ca00-dd78-11eb-9da5-699882e29f92.png)
+
+In your VirtualBox software, click the **New** button.  
 
 <hr>
 
-![image](https://user-images.githubusercontent.com/12129459/123835761-ef0ade80-d8d6-11eb-9524-6850e944bbb8.png)
+![image](https://user-images.githubusercontent.com/12129459/124484005-f455a680-dd78-11eb-89d5-8cf8783fb280.png)
 
 Give your virtual machine a name. - I called mine UbuntuVM, but you can call yours whatever you want.  
 
@@ -74,9 +88,7 @@ In the dropdown menu for _Type:_  select **Linux**
 
 In the _Version_ dropdown, select **Ubuntu (64-bit)**.
 
-![image](https://user-images.githubusercontent.com/12129459/123842096-63954b80-d8de-11eb-886f-7da9e9403179.png)
-
-Click **Next**. 
+Click **Continue**. 
 
 <hr>
 
