@@ -49,6 +49,7 @@ Linux has countless varieties (called 'distributions' or 'distros'), each one ca
 
 For this beginner course, we will be using a user friendly Linux distribution called _Ubuntu_.  We specifically want _Ubuntu version 20.04.2.0 LTS_ (the LTS stands for 'long term support'). 
 
+[![image](https://user-images.githubusercontent.com/12129459/124644449-4a514980-de60-11eb-83f7-c9fe4b2cc260.png)](https://ubuntu.com/download/desktop)
 
 You can find a download link for this version at the <a href="https://ubuntu.com/download/desktop"> downloads page </a> of Ubuntu's official website. (https://ubuntu.com/download/desktop)
 
