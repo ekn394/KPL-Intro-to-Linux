@@ -170,6 +170,11 @@ Next, pick the option that says **Install Ubuntu**.
 
 If your screen looks like the one shown above, (50% chance you see a different graphic) you may need to use the arrow keys to highlight "Install Ubuntu" and **press the Enter key**. 
 
+
+![image](https://user-images.githubusercontent.com/12129459/124830602-223d1580-df48-11eb-8f9a-8caaffd0605b.png)
+
+The other 50% of the time, I find that I see this screen, where again, I select the "Install Ubuntu" option. 
+
 <hr>
 
 ![image](https://user-images.githubusercontent.com/12129459/123847341-7f9beb80-d8e4-11eb-9237-0ebd3332aea9.png)
