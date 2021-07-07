@@ -275,7 +275,7 @@ You now have a virtual computer running Ubuntu Linux 20.04.
 
 ![image](https://user-images.githubusercontent.com/12129459/123859369-8d586d80-d8f2-11eb-93fd-dc009d9cbcb3.png)
 
-When you eventually go to either to shutdown this virtual machine, or close the VirtualBox program that it lives within, you will be given 3 choices.  My suggestion is to go with the default **Send the shutdown signal**.
+When you eventually go to either to shutdown this virtual machine, or close the VirtualBox program that it lives within, you will be given 3 choices.  My suggestion is to go with **Send the shutdown signal** buy we will discuss in class different scenarios where you might want to use the other options. 
 
 <hr>
 
