@@ -166,9 +166,9 @@ It might ask you for your language of choice.  I choose the default, English, an
 
 ![image](https://user-images.githubusercontent.com/12129459/123846573-8a09b580-d8e3-11eb-985b-7aabf6b7ed0e.png)
 
-Next, pick the third option which is to **Install Ubuntu**
+Next, pick the option that says **Install Ubuntu**.  
 
-Use your arrow keys to highlight "Install Ubuntu" and **press the Enter key**. 
+If your screen looks like the one shown above, (50% chance you see a different graphic) you may need to use the arrow keys to highlight "Install Ubuntu" and **press the Enter key**. 
 
 <hr>
 
