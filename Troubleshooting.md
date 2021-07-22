@@ -3,7 +3,7 @@
 [Fatal: No bootable medium found! System halted](#fatal-boot-error)
 <br>
 
-[Forgot Login Password ](#forgot-password-method-1)
+[Forgot Login Password ](#password-reset-method-1)
 
 <hr>
  
@@ -40,7 +40,7 @@ Finally, turn your VM off and on again.  I think the easiest way to do this is t
 <hr>
 
 
-### Forgot Password Method 1
+### Password Reset Method 1
 Note: This method may not be available for your particular installation of Ubuntu.  
 
 Let's say you forgot your password to login. For this example the user account is named 'evan'. 
