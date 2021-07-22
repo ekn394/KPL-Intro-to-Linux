@@ -1,8 +1,9 @@
 # Troubleshooting and FAQs
 
-[Fatal Error: No bootable medium found! System halted](#fatal-boot-error)
+[Fatal: No bootable medium found! System halted](#fatal-boot-error)
 <br>
-[Fatal Error: Solution ](#fatal-boot-error-solution)
+
+[Forgot Password Easy Mode ](#forgot-password-easy-solution )
 
 <hr>
  
@@ -37,5 +38,18 @@ Click Ok, to close this settings window.
 Finally, turn your VM off and on again.  I think the easiest way to do this is to right click on your VM and select _Reset_.
 
 <hr>
+
+
+### Forgot Password - Easy solution 
+Note: This method may not be available for your particular installation of Ubuntu.  
+
+
+![image](https://user-images.githubusercontent.com/12129459/126672924-1d212347-a57d-4cd0-8769-3d1a07f6a857.png)
+
+
+### Fatal Boot Error 
+
+Harder way 
+
 
 
