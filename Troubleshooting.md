@@ -49,24 +49,25 @@ Let's say you forgot your password to login. For this example the user account i
 
 The first thing to do is reset your machine, then when the screen goes black hit the escape key repeatedly until you see a GNU GRUB menu like this. 
 
-![image](https://user-images.githubusercontent.com/12129459/126675339-725ce567-924e-46ad-9b43-740497f5e28f.png)
-
 ![image](https://user-images.githubusercontent.com/12129459/126675425-482aa6a4-5e70-48dd-b881-19ca2e3dea52.png)
 
 Select the option for "Advanced options for Ubuntu" and press Enter.
  
 ![image](https://user-images.githubusercontent.com/12129459/126675546-f5463e5d-ee3e-474a-a6da-8aa94cd6343d.png)
 
-On the next screen select one that ends with the words "(recovery mode)".  You might see two pairs of options that look similar, that's fine, go with the first one that says "recovery mode" and press enter. 
+On the next screen select one that ends with the words "recovery mode".  You might see two pairs of options that look similar, that's fine, go with the first one that says "recovery mode" and press enter. 
 
 ![image](https://user-images.githubusercontent.com/12129459/126672924-1d212347-a57d-4cd0-8769-3d1a07f6a857.png)
+
 After a few seconds you should find yourself at a "Recovery Menu".  
 Select the option for 'root - Drop to root shell prompt'
 
 ![image](https://user-images.githubusercontent.com/12129459/126673773-38ae6143-86f6-4f45-b5bd-2a68e335c77d.png)
+
 If at this point you see a prompt that says 'Press Enter for maintenance' then you are in easy mode, and you can simply press Enter.
 
 ![image](https://user-images.githubusercontent.com/12129459/126673994-5e2485fe-6883-4c0c-ad68-85978acbf3da.png)
+
 You will then see a usual command line prompt where the user is root@<theMachineName>:~# 
 This means that for the moment you are signed in as the super user 'root'.  
  
@@ -76,6 +77,7 @@ At this point you can type the command **passwd yourUserNameHere**
 In my case the user I want to change the password for is the user named 'evan' so I will type **passwd evan**
 
 ![image](https://user-images.githubusercontent.com/12129459/126674464-6d29a64d-cadf-426b-8441-57833eead280.png)
+
 It will ask you to supply a new password for that user.  
 It will ask you to retype the new password to confirm.  
 
