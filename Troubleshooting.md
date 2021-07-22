@@ -3,7 +3,7 @@
 [Fatal: No bootable medium found! System halted](#fatal-boot-error)
 <br>
 
-[Forgot Password Easy Mode ](#forgot-password-method-1)
+[Forgot Login Password ](#forgot-password-method-1)
 
 <hr>
  
