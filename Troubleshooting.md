@@ -45,10 +45,31 @@ Note: This method may not be available for your particular installation of Ubunt
 
 
 ![image](https://user-images.githubusercontent.com/12129459/126672924-1d212347-a57d-4cd0-8769-3d1a07f6a857.png)
+Select the option for 'root - Drop to root shell prompt'
 
 
+![image](https://user-images.githubusercontent.com/12129459/126673773-38ae6143-86f6-4f45-b5bd-2a68e335c77d.png)
+If at this point you see a prompt that says 'Press Enter for maintenance' then you are in easy mode, and you can simply press Enter.
 
-Harder way 
+![image](https://user-images.githubusercontent.com/12129459/126673994-5e2485fe-6883-4c0c-ad68-85978acbf3da.png)
+You will then see a usual command line prompt where the user is root@<theMachineName>:~# 
+This means that for the moment you are signed in as the super user 'root'.  
+ 
+![image](https://user-images.githubusercontent.com/12129459/126674331-ca666838-b75e-4f4f-a89c-70fd21a13ab9.png)
 
+At this point you can type the command **passwd yourUserNameHere**
+In my case the user I want to change the password for is the user named 'evan' so I will type **passwd evan**
+
+![image](https://user-images.githubusercontent.com/12129459/126674464-6d29a64d-cadf-426b-8441-57833eead280.png)
+It will ask you to supply a new password for that user.  
+It will ask you to retype the new password to confirm.  
+
+That's it.  Done resetting the password for whatever user you wish.  
+You can reboot your machine now and you should be able to log in using that new password. 
+
+### Forgot Password method 2
+
+Sometimes you will not see the "Press Enter for maintenance" but you will instead see a prompt asking you to supply the root password.
+ 
 
 
