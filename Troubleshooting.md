@@ -3,7 +3,7 @@
 [Fatal: No bootable medium found! System halted](#fatal-boot-error)
 <br>
 
-[Forgot Password Easy Mode ](#forgot-password-easy-solution )
+[Forgot Password Easy Mode ](#forgot-password-method-1)
 
 <hr>
  
@@ -40,14 +40,13 @@ Finally, turn your VM off and on again.  I think the easiest way to do this is t
 <hr>
 
 
-### Forgot Password - Easy solution 
+### Forgot Password method 1
 Note: This method may not be available for your particular installation of Ubuntu.  
 
 
 ![image](https://user-images.githubusercontent.com/12129459/126672924-1d212347-a57d-4cd0-8769-3d1a07f6a857.png)
 
 
-### Fatal Boot Error 
 
 Harder way 
 
