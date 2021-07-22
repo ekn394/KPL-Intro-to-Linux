@@ -40,13 +40,28 @@ Finally, turn your VM off and on again.  I think the easiest way to do this is t
 <hr>
 
 
-### Forgot Password method 1
+### Forgot Password Method 1
 Note: This method may not be available for your particular installation of Ubuntu.  
 
+Let's say you forgot your password to login. For this example the user account is named 'evan'. 
+
+![image](https://user-images.githubusercontent.com/12129459/126675234-44068b90-4cb8-4dfd-9a0b-fbd08c1fe67e.png)
+
+The first thing to do is reset your machine, then when the screen goes black hit the escape key repeatedly until you see a GNU GRUB menu like this. 
+
+![image](https://user-images.githubusercontent.com/12129459/126675339-725ce567-924e-46ad-9b43-740497f5e28f.png)
+
+![image](https://user-images.githubusercontent.com/12129459/126675425-482aa6a4-5e70-48dd-b881-19ca2e3dea52.png)
+
+Select the option for "Advanced options for Ubuntu" and press Enter.
+ 
+![image](https://user-images.githubusercontent.com/12129459/126675546-f5463e5d-ee3e-474a-a6da-8aa94cd6343d.png)
+
+On the next screen select one that ends with the words "(recovery mode)".  You might see two pairs of options that look similar, that's fine, go with the first one that says "recovery mode" and press enter. 
 
 ![image](https://user-images.githubusercontent.com/12129459/126672924-1d212347-a57d-4cd0-8769-3d1a07f6a857.png)
+After a few seconds you should find yourself at a "Recovery Menu".  
 Select the option for 'root - Drop to root shell prompt'
-
 
 ![image](https://user-images.githubusercontent.com/12129459/126673773-38ae6143-86f6-4f45-b5bd-2a68e335c77d.png)
 If at this point you see a prompt that says 'Press Enter for maintenance' then you are in easy mode, and you can simply press Enter.
@@ -67,7 +82,7 @@ It will ask you to retype the new password to confirm.
 That's it.  Done resetting the password for whatever user you wish.  
 You can reboot your machine now and you should be able to log in using that new password. 
 
-### Forgot Password method 2
+### Forgot Password Method 2
 
 Sometimes you will not see the "Press Enter for maintenance" but you will instead see a prompt asking you to supply the root password.
  
