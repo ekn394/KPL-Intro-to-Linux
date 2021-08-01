@@ -178,6 +178,8 @@ With those checkboxes in place, the previous instructions of reboot (with the bo
 
 If everything has gone according to plan so far, then during startup you will be faced with familiar looking Ubuntu installation screens.  This time though you want to select **Try Ubuntu**
 
+![image](https://user-images.githubusercontent.com/12129459/124830602-223d1580-df48-11eb-8f9a-8caaffd0605b.png)
+
 Saying again,  This time you want to select **TRY UBUNTU**
 
 Ok, Good luck!. 
