@@ -174,7 +174,7 @@ Then, you would have to change the two radio buttons to say "No security" - so i
 
 With those checkboxes in place, the previous instructions of reboot (with the boot USB already plugged in) then holding down the 'option' key when you hear the chime worked just fine.  
 
-##What do I do now?
+## What do I do now?
 
 If everything has gone according to plan so far, then during startup you will be faced with familiar looking Ubuntu installation screens.  This time though you want to select **Try Ubuntu**
 
