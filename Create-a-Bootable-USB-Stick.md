@@ -94,7 +94,7 @@ Here is an example after I moved Windows Boot Manager to the bottom of the list.
 
 Save changes and exit.  
 
-Try that out.  Plug in your new Bootable USB and restart your computer. 
+Try that out.  Plug in your new Bootable USB and restart your computer. You shouldn't need any trickery, or need to hold down any buttons anymore.  This may work, or it may not.  You see the difficulty of writing a manual for this. 
 
 If that doesn't work, you might have to go back into your BIOS/Startup menu again and locate another option where you can select between _Legacy_ or _UEFI_.  I have had much more luck using _"Legacy"_. 
 
